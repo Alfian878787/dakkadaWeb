@@ -1,11 +1,11 @@
 var express = require('express'); //Imports express into my application
 var http = require('http');
 var swig = require('swig');
+var path = require('path');
 
 var  app = express(); //I call on express` createServer() called app
 var port = process.env.NODE_ENV || 8280;
 var colors = require('colors');
-// var swig = require('swig');
 
 
 // view engine config
@@ -20,6 +20,8 @@ app.set('views', __dirname + '/public/views');
 app.get('/', function(req, res){
     res.render('index');
 });
+
+app.use(express.static(path.resolve('./public')));
 
 var server = http.createServer(app);
 
