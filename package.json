@@ -1,0 +1,26 @@
+{
+  "name": "dakkadaplatform",
+  "version": "1.0.0",
+  "description": "dakkada support initiative web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killianJunior/dakkadaWeb.git"
+  },
+  "keywords": [
+    "dakkada",
+    "support",
+    "initiative",
+    "akwa",
+    "ibom"
+  ],
+  "author": "Killian Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killianJunior/dakkadaWeb/issues"
+  },
+  "homepage": "https://github.com/killianJunior/dakkadaWeb#readme"
+}
