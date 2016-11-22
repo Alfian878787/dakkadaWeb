@@ -21,6 +21,7 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
+// This line resolves my public directory..
 app.use(express.static(path.resolve('./public')));
 
 var server = http.createServer(app);
